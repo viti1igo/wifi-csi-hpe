@@ -1,0 +1,16 @@
+# Generated data: rebuilt by `python main.py preprocess` from the raw dataset (not in this repository)
+cache/
+runs/
+results/
+logs/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Model checkpoints and prediction dumps
+*.pt
+*.pth
+
+# Privacy: camera frames and video from the recordings must not leave the host
+*.mp4
+*.avi
